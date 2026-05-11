@@ -104,5 +104,3 @@ Feel free to connect with me:
 - LinkedIn
 - GitHub
 - Email
-
----
