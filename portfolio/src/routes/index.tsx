@@ -33,18 +33,21 @@ const projects = [
     img: projRestaurant,
     desc: "ML pipeline on 9,551 restaurants & 21 features. AdaBoost + GridSearch reaching MAE 0.366, deployed via Streamlit.",
     tags: ["Python", "Scikit-Learn", "Streamlit"],
+    github: "https://github.com/nethra0906/Restaurants-Rating-Predictor",
   },
   {
     title: "Deep Learning on Wine",
     img: projWine,
     desc: "Neural network trained on 4,547 physicochemical wine samples - 82% test accuracy with hold-out validation.",
     tags: ["TensorFlow", "Keras", "EDA"],
+    github: "https://github.com/nethra0906/Deep-Learning-EDA-on-Wine-Datsets",
   },
   {
     title: "CSR Analysis",
     img: projCsr,
     desc: "Comprehensive EDA on Corporate Social Responsibility datasets with interactive Power BI dashboards.",
     tags: ["Power BI", "Pandas", "Seaborn"],
+    github: "https://github.com/nethra0906/Analysis-on-Corporate-Social-Responsiblity-Datasets",
   },
 ];
 
@@ -205,7 +208,10 @@ function Portfolio() {
                     ))}
                   </div>
                   <a
-                    className="mt-5 inline-flex items-center gap-1 text-xs font-medium text-primary"
+                    href={p.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-5 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline"
                   >
                     Details <ArrowUpRight className="h-3.5 w-3.5" />
                   </a>
