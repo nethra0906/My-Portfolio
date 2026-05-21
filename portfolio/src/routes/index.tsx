@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, Mail, Github, Linkedin, Code2, Database, Globe, Wrench, Award, Users, Sparkles } from "lucide-react";
 import portrait from "@/assets/nethra-portrait.jpg";
-import projRestaurant from "@/assets/proj-restaurant.jpg";
-import projWine from "@/assets/proj-wine.jpg";
+import projHealthcare from "@/assets/proj-healthcare.jpg";
+import projFortiScan from "@/assets/proj-cybersec.jpg";
 import projCsr from "@/assets/proj-csr.jpg";
 import { Nav } from "@/components/portfolio/Nav";
 import { SectionLabel } from "@/components/portfolio/SectionLabel";
@@ -29,18 +29,18 @@ export const Route = createFileRoute("/")({
 
 const projects = [
   {
-    title: "Restaurants Rating Predictor",
-    img: projRestaurant,
-    desc: "ML pipeline on 9,551 restaurants & 21 features. AdaBoost + GridSearch reaching MAE 0.366, deployed via Streamlit.",
-    tags: ["Python", "Scikit-Learn", "Streamlit"],
-    github: "https://github.com/nethra0906/Restaurants-Rating-Predictor",
+    title: "Vitaverse - Healthcare Digital Twin",
+    img: projHealthcare,
+    desc: "AI-powered Healthcare Digital Twin for disease progression prediction, risk assessment, intervention simulation, and explainable clinical decision support.",
+    tags: ["Python", "XGBoost", "Streamlit", "SHAP", "LSTM"],
+    github: "https://github.com/nethra0906/VitaVerse.git",
   },
   {
-    title: "Deep Learning on Wine",
-    img: projWine,
-    desc: "Neural network trained on 4,547 physicochemical wine samples - 82% test accuracy with hold-out validation.",
-    tags: ["TensorFlow", "Keras", "EDA"],
-    github: "https://github.com/nethra0906/Deep-Learning-EDA-on-Wine-Datsets",
+    title: "FortiScan",
+    img: projFortiScan,
+    desc: "AI-based system that analyses insecure code and automatically suggests secure corrected implementations.",
+    tags: ["Cybersecurity", "AI", "LLMs"],
+    github: "https://github.com/nethra0906/FortiScan.git",
   },
   {
     title: "CSR Analysis",
