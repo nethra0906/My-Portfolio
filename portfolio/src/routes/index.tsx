@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight, Mail, Github, Linkedin, Code2, Database, Glob
 import portrait from "@/assets/nethra-portrait.jpg";
 import projHealthcare from "@/assets/proj-healthcare.jpg";
 import projFortiScan from "@/assets/proj-cybersec.jpg";
-import projCsr from "@/assets/proj-csr.jpg";
+import projPrice from "@/assets/proj-price.jpg";
 import { Nav } from "@/components/portfolio/Nav";
 import { SectionLabel } from "@/components/portfolio/SectionLabel";
 
@@ -43,11 +43,11 @@ const projects = [
     github: "https://github.com/nethra0906/FortiScan.git",
   },
   {
-    title: "CSR Analysis",
-    img: projCsr,
-    desc: "Comprehensive EDA on Corporate Social Responsibility datasets with interactive Power BI dashboards.",
-    tags: ["Power BI", "Pandas", "Seaborn"],
-    github: "https://github.com/nethra0906/Analysis-on-Corporate-Social-Responsiblity-Datasets",
+    title: "PriceIQ - Dynamic Pricing Engine",
+    img: projPrice,
+    desc: "An end-to-end Dynamic Pricing Engine using XGBoost demand forecasting and grid search optimization, achieving R² of 0.85+ across 4 product categories with 2 years of synthetic retail sales data",
+    tags: ["Scikit-Learn", "Prophet", "Streamlit"],
+    github: "https://github.com/nethra0906/PriceIQ.git",
   },
 ];
 
